@@ -27,7 +27,7 @@ clean:
 	find ./ -name *.o -exec rm -v {} \;
 	find ./ -name *.gcno -exec rm -v {} \;
 	find ./ -name *.gcda -exec rm -v {} \;
-	-rm $(APPNAME)
+	#-rm $(APPNAME)
 	-rm $(TESTMAIN)
 	-rm *_result.xml
 	-rm doxygen_*
